@@ -1,0 +1,11 @@
+
+http://www.geekzilla.co.uk/ViewCE64BEF3-51A6-4F1C-90C9-6A76B015C9FB.htm
+
+runn in visual studios command window
+
+sn -k keyPair.snk
+
+ildasm "C:\Google Drive\Programming\_.Net\01 Libary\EPDM\2014\EPDM.Interop.epdm.dll" /out:"C:\Google Drive\Programming\_.Net\01 Libary\EPDM\2014\EPDM.Interop.epdm.il"
+
+
+ilasm "C:\Google Drive\Programming\_.Net\01 Libary\EPDM\2014\EPDM.Interop.epdm.il" /dll /key=keyPair.snk
